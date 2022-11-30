@@ -1,0 +1,40 @@
+/* navbar  */
+.navbar-brand{
+    font-family: viga;
+    font-size: 32;
+}
+
+.img fluid{
+    max-width: 100%;
+}
+
+.jumbotron-fluid{
+    background-color: #fffcf5;
+    
+}
+/* Utility */
+.button{
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #01b4b3;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #007bff;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+}
